@@ -100,7 +100,7 @@ export default function App() {
         </Routes>
       </main>
 
-      <footer className="footer">© {new Date().getFullYear()} Your Name</footer>
+      <footer className="footer">© {new Date().getFullYear()} Aneesh Surasani</footer>
     </div>
   );
 }
