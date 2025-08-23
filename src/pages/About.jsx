@@ -23,7 +23,7 @@ function TargetIcon(props) {
 }
 
 export default function About() {
-  const badges = ["React", "TypeScript", "Node.js", "FastAPI", "GCP", "CI/CD", "Accessibility"];
+  const badges = ["React", "Vue", "TypeScript", "Nest.js", "FastAPI", "GCP", "Python", ];
 
   const timeline = [
     { year: "2025", title: "Associate SWE @ Five9", desc: "Build & ship features, docs, and customer-facing improvements." },
@@ -43,7 +43,7 @@ export default function About() {
         <p>
             I've always been curious about how things work—and even more curious about whether I could make them myself.
             Whenever I see an app with a subscription paywall, my first thought isn’t to pull out my wallet—it’s,
-            <em>couldn’t I just build this myself?</em>
+            <em> couldn’t I just build this myself?</em>
         </p>
 
         <p>

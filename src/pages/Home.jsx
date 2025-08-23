@@ -43,10 +43,10 @@ export default function Home({ onPrimaryCta }) {
         </div>
 
         <div className="pill-row">
-          <span className="pill">Frontend polish</span>
-          <span className="pill">API integration</span>
-          <span className="pill">Performance passes</span>
-          <span className="pill">DX & tooling</span>
+          <span className="pill">Break → Fix → Learn</span>
+          <span className="pill">User first</span>
+          <span className="pill">Learning by building</span>
+          <span className="pill">Making life easier</span>
         </div>
       </div>
 

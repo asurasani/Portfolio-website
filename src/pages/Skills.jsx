@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Skills() {
   const skills = [
     { group: "Frontend", items: ["React", "TypeScript", "Vite/Cra", "CSS Modules", "Tailwind"] },
@@ -8,7 +6,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="stack gap-md">
+    <div className="stack gap-md skills"> 
       <h2>Skills</h2>
       <div className="grid">
         {skills.map((s) => (

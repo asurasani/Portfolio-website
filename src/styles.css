@@ -282,3 +282,25 @@
 .linkish { color: var(--text); opacity:.9; text-decoration: underline; text-underline-offset: 3px; }
 
 /* Keep consistent with existing cards/buttons etc. */
+
+/* === Compact Skills overrides === */
+#skills.section {
+  min-height: auto !important;     /* stop full-screen height */
+  display: block !important;        /* undo flex centering */
+  padding-block: 2rem !important;   /* tighten vertical padding */
+}
+
+/* tighter spacing just inside Skills */
+#skills .skills h2 { margin-bottom: .5rem !important; }
+#skills .grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+  gap: .75rem !important;
+}
+#skills .card-body { padding: .75rem .9rem !important; }
+#skills .card h3 { margin: 0 0 .45rem !important; font-size: 1rem !important; }
+#skills .pill-list { display:flex !important; flex-wrap:wrap !important; gap:.4rem !important; margin:0 !important; }
+#skills .pill { font-size:.8rem !important; padding:.2rem .5rem !important; }
+
+/* optional: reduce the grid gap inside the wrapper if .gap-md is large */
+#skills .gap-md { gap: .8rem !important; }
+

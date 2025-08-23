@@ -58,7 +58,7 @@ export default function Contact() {
 
         <div className="contact-cards">
           <a className="mini-card" href="mailto:asurasani729@gmail.com" aria-label="Email">
-            <MailIcon /> you@example.com
+            <MailIcon /> asurasani729@gmail.com
           </a>
           <a className="mini-card" href="https://www.linkedin.com/in/aneesh-surasani/" target="_blank" rel="noreferrer">
             {/* simple dot avatar */}
@@ -70,9 +70,9 @@ export default function Contact() {
         </div>
 
         <ul className="contact-highlights">
-          <li>✅ Freelance & contract friendly</li>
-          <li>⚡ Fast turnarounds</li>
-          <li>🧪 Strong testing & a11y</li>
+          <li>💼 Open for freelance projects</li>
+          <li>🤝 Interested in collaborations & side projects</li>
+          <li>🌐 Always happy to connect with other developers</li>
         </ul>
       </div>
 
