@@ -27,9 +27,11 @@ export default function Home({ onPrimaryCta }) {
       <div className="hero-copy">
         <div className="hero-kicker">Shipping {">"} Talking</div>
         <h1 className="hero-title">
-          I build fast, accessible interfaces
-          <br />and **boring-reliable** services.
+          Hi, I'm Aneesh Surasani. <br />
+          I build fast, accessible interfaces <br />
+          and boring-reliable services.
         </h1>
+
         <p className="muted">
           Full-stack engineer focused on smooth UX, clean APIs, and pragmatic tooling.
           No fluff—just things that work and keep working.

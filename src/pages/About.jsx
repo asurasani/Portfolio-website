@@ -35,9 +35,9 @@ export default function About() {
     <div className="about-wrap">
       {/* Left column: intro + highlights */}
       <div className="about-intro">
-        <h2 className="about-title">About Me</h2>
+        <h2 className="about-title">About Aneesh</h2>
         <p className="lead">
-            I'm a developer who can only learn by building.
+          I’m Aneesh Surasani, a developer who can only learn by building.
         </p>
 
         <p>
